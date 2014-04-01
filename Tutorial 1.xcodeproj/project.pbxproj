@@ -19,6 +19,7 @@
 		7C9C8D6E18E25F4E00698B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9C8D5618E25F4E00698B09 /* UIKit.framework */; };
 		7C9C8D7618E25F4E00698B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9C8D7418E25F4E00698B09 /* InfoPlist.strings */; };
 		7C9C8D7818E25F4E00698B09 /* Tutorial_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C8D7718E25F4E00698B09 /* Tutorial_1Tests.m */; };
+		7C9C8D8318E25FD500698B09 /* TTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C8D8218E25FD500698B09 /* TTFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7C9C8D7318E25F4E00698B09 /* Tutorial 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial 1Tests-Info.plist"; sourceTree = "<group>"; };
 		7C9C8D7518E25F4E00698B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C9C8D7718E25F4E00698B09 /* Tutorial_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial_1Tests.m; sourceTree = "<group>"; };
+		7C9C8D8118E25FD500698B09 /* TTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFirstViewController.h; sourceTree = "<group>"; };
+		7C9C8D8218E25FD500698B09 /* TTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				7C9C8D6218E25F4E00698B09 /* TTAppDelegate.m */,
 				7C9C8D6418E25F4E00698B09 /* Images.xcassets */,
 				7C9C8D5918E25F4E00698B09 /* Supporting Files */,
+				7C9C8D8118E25FD500698B09 /* TTFirstViewController.h */,
+				7C9C8D8218E25FD500698B09 /* TTFirstViewController.m */,
 			);
 			path = "Tutorial 1";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				7C9C8D6318E25F4E00698B09 /* TTAppDelegate.m in Sources */,
 				7C9C8D5F18E25F4E00698B09 /* main.m in Sources */,
+				7C9C8D8318E25FD500698B09 /* TTFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
